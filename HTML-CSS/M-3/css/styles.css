@@ -1,0 +1,44 @@
+body {
+    font-family: "Playfair Display", sans-serif;
+    color: #626262;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+p {
+    text-transform: uppercase;
+}
+
+li {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+nav li:hover {
+    color:blue
+}
+
+article {
+    width: 470px;
+    display: inline-block;
+    margin-left: 165px;
+}
+
+button {
+    height: 78px;
+    width: 163px;
+    font-size: 20px;
+    display: block;
+    margin-top: 60px;
+    margin-left: 45%;
+    font-family: inherit;
+    background-color: white;
+    border-color: #626262;
+}
