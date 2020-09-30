@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #515151;
+}
+
+.container {
+    width: 1111px;
+    margin: auto;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+    font-weight:none;
+}
+
+/* Navigation */
+
+.logo {
+    text-transform: uppercase;
+    float: left;
+    padding: 30px 30px 30px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.logo::first-letter {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #1abc9c;
+}
+
+.navigation-menu li {
+    list-style: none;
+    padding: 30px;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.navigation-menu {
+    float: right;
+    margin: 12px;
+}
+
+.navigation-menu li:last-child {
+    padding-right: 0;
+}
+
+.navigation-item {
+    float: left;
+}
+
+.navigation-item:hover {
+    color: #1abc9c;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* Main section */
+
+/* Featured products */
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    margin-top: 105px;
+    line-height: 32px;
+}
+
+h2::after {
+    display: block;
+    content: '';
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+    margin: 30px auto 92px auto;
+}
+
+.products {
+    margin-top: 50px;
+}
+
+.products li {
+    list-style: none;
+}
+
+.product-item {
+    float: left;
+    margin-right: 30px;
+    width: 255px;
+    height: 322px;
+    text-align: center;
+    background-color: #e8effc;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    margin-bottom: 31px;
+}
+
+.product-item:hover .product-name {
+    background-color: #1abc9c;
+}
+
+.product-item:hover .product-price {
+    background-color: #7fd9c7;
+}
+
+.product-item:nth-child(4n) {
+    margin-right: 0;
+}
+
+.product-item:nth-child(n+5) {
+    margin-bottom: 0;
+}
+
+img[src="css/img/product2.png"] {
+    margin-top: 22px;
+    margin-bottom: 14px;
+}
+
+img[src="css/img/product3.png"] {
+    margin-top: 71px;
+    margin-bottom: 53px;
+}
+
+img[src="css/img/product4.png"] {
+    margin-top: 48px;
+    margin-bottom: 30px;
+}
+
+img[src="css/img/product5.png"] {
+    margin-top: 13px;
+    margin-bottom: 56px;
+}
+
+img[src="css/img/product6.png"] {
+    margin-top: 51px;
+    margin-bottom: 51px;
+}
+
+img[src="css/img/product7.png"] {
+    margin-top: 24px;
+    margin-bottom: 18px;
+}
+
+img[src="css/img/product8.png"] {
+    margin-top: 97px;
+    margin-bottom: 87px;
+}
+
+.product-item p {
+    text-transform: uppercase;
+    color:#ffffff;
+    height: 26px;
+    padding-top: 10px;
+}
+
+.product-name {
+    background-color: #323232;
+    padding-left: 14px;
+    text-align: left;
+    float: left;
+    width: 187px;
+}
+
+.product-price {
+    background-color: #8c8c8c;
+    padding-right: 13px;
+    text-align: right;
+    float: right;
+    width: 41px;
+}
+
+/* News section */
+
+.article-item {
+    float: left;
+    width: 350px;
+    margin-right: 30px;
+}
+
+.article-item:last-child {
+    margin-right:0;
+}
+
+.article-item h3 {
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 14px;
+}
+
+.article-item h3::after {
+    content: '';
+    background-color: #1abc9c;
+    width: 136px;
+    height: 3px;
+    display: block;
+    margin-top: 11px;
+    margin-bottom: 23px;
+}
+
+.article-item p {
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+button {
+    margin-top: 20px;
+    margin-bottom: 81px;
+    width: 159px;
+    height: 51px;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #f3fbf9;
+    background-color: #4ec6ab;
+    border-radius: 2px;
+    border: none;
+}
