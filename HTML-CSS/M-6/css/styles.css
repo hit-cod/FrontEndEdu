@@ -247,6 +247,10 @@ p {
     opacity: 0;
 }
 
+.icon:hover {
+  background-color: #95e1d3;
+}
+
 .team-item:hover .icon {
     opacity: 1;
 }
@@ -255,32 +259,16 @@ p {
     background-image: url(../css/img/facebook.png);
 }
 
-.fb-icon:hover {
-    background-color: #95e1d3;
-}
-
 .tweet-icon {
     background-image: url(../css/img/twitter.png);
-}
-
-.tweet-icon:hover {
-    background-color: #95e1d3;
 }
 
 .pin-icon {
     background-image: url(../css/img/pinterest.png);
 }
 
-.pin-icon:hover {
-    background-color: #95e1d3;
-}
-
 .inst-icon {
     background-image: url(../css/img/instagram.png);
-}
-
-.inst-icon:hover {
-    background-color: #95e1d3;
 }
 
 
