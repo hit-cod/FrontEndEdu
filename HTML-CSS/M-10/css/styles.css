@@ -20,7 +20,7 @@
   .back__overlay {
     position: absolute;
     height: 1000px;
-    width: 1920px;
+    width: 100%;
     background-image: linear-gradient(
       to top,
       rgba(252, 227, 138, 0.8) 0%,
@@ -31,7 +31,7 @@
   .back__img {
     position: absolute;
     height: 1000px;
-    width: 1920px;
+    width: 100%;
     background-image: url(./img/top-banner.png);
   }
   
